@@ -9,5 +9,5 @@
 />
 <p>Author: {{ post?.author }}</p>
 <p>Date: {{ post?.datetimeCreated }}</p>
-<button>Edit</button>
-<button (click)="onDelete()">Delete</button>
+<button class="btn btn-success" type="submit">Edit</button> | 
+<button class="btn btn-danger" (click)="onDelete()">Delete</button>
